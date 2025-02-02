@@ -3,7 +3,7 @@
 
 ## Authors
 - Pedro Rocha
-- Alice Saldanha
+- Alice Oliveira
 - João Amaro
 
 
@@ -30,7 +30,7 @@ Store medical history.
 Connect patients with doctors and family members.
 Control specific functionalities of the glasses (e.g., inducing vibrations when anomalous states are detected).
 
-## How We Built It
+## Build
 For now, the prototype will be built using an Arduino Due as the base.
 
 EEG sensors, attached to the temples of the glasses, and the camera, integrated into the lenses, will be connected via cables to signal processing modules for EEG and video/image processing, embedded in the Arduino.
@@ -39,7 +39,7 @@ This will serve as our initial setup. As opportunities arise, we may explore alt
 
 Later, the Arduino will transmit data to a smartphone via Bluetooth, where the information can be displayed in the app. The data will be stored in the cloud whenever seizures or other complications occur—or whenever the user desires.
 
-## Challenges We Ran Into
+## Possible Challenges
 One of the main challenges will be efficiently integrating all components in a compact and user-friendly manner. Additionally, we need to carefully design the best way to present the data in the digital application.
 
 However, after conducting in-depth research, we are motivated and optimistic about the feasibility of our idea.
